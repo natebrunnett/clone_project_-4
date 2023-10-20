@@ -1,0 +1,47 @@
+header {
+  text-align: center;
+}
+
+.nav2 {
+  display: flex;
+  justify-content: space-around;
+  border-top:solid lightgrey 1px;
+  border-bottom: solid lightgrey 1px;
+  font-size: 12px;
+}
+
+.full {
+  box-sizing: border-box;
+  border-bottom: solid 1px lightgrey;
+  width: 100%;
+  float: left;
+  padding-bottom: 1em;
+  padding-left: 1em;
+}
+
+.half {
+  box-sizing: border-box;
+  border-right: solid 1px lightgrey;
+  width: 50%;
+  float: left;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.half .right {
+  padding-top: 3em;
+}
+
+.right {
+  float: right;
+  width: 50%;
+}
+
+.left {
+  float: left;
+  width:50%;
+}
+.left p {
+  padding-right:1em;
+}
+
